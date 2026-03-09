@@ -41,31 +41,41 @@ Jika jadwal sudah terisi maka user tidak bisa memesan jam yang sama.
 
 ---
 
-# 🏗️ Struktur Project
+## 🏗️ Struktur Project
+```
 booking_lapangan/
 │
+├── admin/
+│   ├── dashboard.php
+│   ├── data_booking.php
+│   ├── data_user.php
+│   ├── edit_lapangan.php
+│   ├── hapus_lapangan.php
+│   ├── lapangan.php
+│   └── tambah_lapangan.php
+│
 ├── auth/
-│ ├── login.php
-│ ├── register.php
-│ └── logout.php
+│   ├── login.php
+│   ├── logout.php
+│   └── register.php
 │
 ├── config/
-│ └── koneksi.php
+│   └── koneksi.php
 │
 ├── images/
-│ └── (gambar lapangan)
+│   ├── badminton.jpg
+│   ├── basket.jpg
+│   └── futsal.jpg
 │
 ├── user/
-│ ├── dashboard.php
-│ ├── booking.php
-│ └── booking_saya.php
-│
-├── database/
-│ └── booking_lapangan.sql
+│   ├── booking_saya.php
+│   ├── booking.php
+│   ├── dashboard.php
+│   └── hapus_booking.php
 │
 ├── index.php
-│
 └── README.md
+```
 
 
 ---
