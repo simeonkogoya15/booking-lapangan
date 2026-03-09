@@ -74,9 +74,35 @@ booking_lapangan/
 │   └── hapus_booking.php
 │
 ├── index.php
+├── database/
+│   └── booking_lapangan.sql
 └── README.md
 ```
+## ⚙️ Cara Menjalankan Project
 
+1. Clone repository ini
+
+```
+git clone https://github.com/simeonkogoya15/booking-lapangan.git
+```
+
+2. Pindahkan folder ke dalam:
+
+```
+xampp/htdocs/
+```
+
+3. Import database di phpMyAdmin
+
+```
+database/booking_lapangan.sql
+```
+
+4. Jalankan di browser
+
+```
+http://localhost/booking_lapangan
+```
 
 ---
 
